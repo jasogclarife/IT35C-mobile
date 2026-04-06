@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">Home</IonTitle>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer />
@@ -21,17 +21,5 @@ const Home: React.FC = () => {
     </IonPage>
   );
 };
-import React from 'react';
-import { IonButton } from '@ionic/react';
-
-function Example() {
-  return (
-    <>
-      <IonButton size="small">Small</IonButton>
-      <IonButton size="default">Default</IonButton>
-      <IonButton size="large">Large</IonButton>
-    </>
-  );
-}
 
 export default Home;
