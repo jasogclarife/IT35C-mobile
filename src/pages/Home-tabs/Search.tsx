@@ -2,19 +2,19 @@ import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle } f
 
 
 const Search: React.FC = () => {
-    return (
-        <IonPage>
-            <IonHeader>
-                <IonButtons>
-                    <IonMenuButton></IonMenuButton>
-                    <IonTitle>Search</IonTitle>
-                </IonButtons>
-            </IonHeader>
-            <IonContent className="ion-padding">
-                <h1>Search</h1>
-            </IonContent>
-        </IonPage>
-    )
+  return (
+    <IonPage>
+        <IonHeader>
+            <IonButtons>
+                <IonMenuButton></IonMenuButton>
+                <IonTitle>Search</IonTitle>
+            </IonButtons>
+        </IonHeader>
+        <IonContent className="ion-padding">
+            <h1>Search</h1>
+        </IonContent>
+    </IonPage>
+  )
 };
 
 export default Search;
