@@ -41,6 +41,7 @@ const Feed: React.FC = () => {
                     onIonInput={(e) => setSearchText(e.detail.value!)} />
 
 
+
                 <IonList>
                     {filtered.map((item, index) =>
                         <><IonItem key={index}>
