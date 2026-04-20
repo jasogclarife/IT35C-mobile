@@ -2,8 +2,8 @@ import { IonButton, IonContent, IonHeader, IonIcon, IonItem, IonMenu, IonMenuTog
 import { homeOutline, informationOutline, logOutOutline, settingsOutline } from "ionicons/icons";
 import { Redirect, Route } from "react-router";
 import Home from "./Home";
-import Page2 from "./Page2";
-import Page1 from "./Page1";
+import Page1 from "./page1";
+import Page2 from "./page2";
 
 const Menu: React.FC = () => {
 
